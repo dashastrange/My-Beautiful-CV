@@ -1,0 +1,40 @@
+* {
+    font-family: 'Space Grotesk', sans-serif;
+    color: floralwhite;
+    font-weight: 300;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+div {
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* for Safari */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.framed {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.experience {
+    text-align: justify-all;
+}
+
+h1, h3 {
+    font-weight: 700;
+}
+
+hr {
+    border: 1px solid rgba(104, 140, 120, 0.86);
+}
+
